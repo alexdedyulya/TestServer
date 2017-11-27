@@ -1,9 +1,6 @@
 language: java
-
 jdk: oraclejdk8
-
-before_install:
-  - cd java
+install: ant deps
 
 
 

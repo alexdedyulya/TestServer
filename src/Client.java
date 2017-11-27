@@ -53,7 +53,7 @@ public class Client {
     }
     private void setNetwork() {
         try {
-            socket = new Socket("127.0.0.1", 5000);
+            socket = new Socket("127.0.0.1", 5001);
             InputStreamReader streamReader = new InputStreamReader(socket.getInputStream());
             reader = new BufferedReader(streamReader);
             writer = new PrintWriter(socket.getOutputStream());
