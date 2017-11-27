@@ -39,7 +39,7 @@ public class Server {
                     tellEveryone(message);
                 }
             } catch (IOException e) {
-                System.out.println("Reset");;
+                e.printStackTrace();;
             }
 
         }
@@ -47,6 +47,7 @@ public class Server {
 
     public static void main(String[] args) {
         new Server().go();
+        new Client();
     }
 
     public void go(){

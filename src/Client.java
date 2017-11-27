@@ -19,11 +19,11 @@ public class Client {
     JTextArea incoming;
     JTextField outgoing;
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Client client = new Client();
         client.go();
-    }
-    public void go(){
+    }*/
+    Client(){
         JFrame frame = new JFrame("Chat client");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         JPanel mainPanel = new JPanel();
@@ -53,7 +53,7 @@ public class Client {
     }
     private void setNetwork() {
         try {
-            socket = new Socket("127.0.0.1", 5000);
+            socket = new Socket("192.168.1.104", 5000);
             InputStreamReader streamReader = new InputStreamReader(socket.getInputStream());
             reader = new BufferedReader(streamReader);
             writer = new PrintWriter(socket.getOutputStream());
@@ -93,5 +93,11 @@ public class Client {
             outgoing.setText("");
             outgoing.requestFocus();
         }
+    }
+
+    public synchronized void SendString(String msg)
+    {
+        writer.println(outgoing.getText());
+        writer.flush();
     }
 }
