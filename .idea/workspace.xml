@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5242f42f-6909-4446-a46f-f1969bf72c72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Client.java" afterPath="$PROJECT_DIR$/src/Client.java" />
-    </list>
+    <list default="true" id="5242f42f-6909-4446-a46f-f1969bf72c72" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -563,12 +561,12 @@
       <workItem from="1511799920763" duration="29000" />
       <workItem from="1511801576936" duration="242000" />
       <workItem from="1511810140416" duration="24000" />
-      <workItem from="1511811943382" duration="10000" />
+      <workItem from="1511811943382" duration="323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6738000" />
+    <option name="totallyTimeSpent" value="7051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
