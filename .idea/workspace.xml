@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5242f42f-6909-4446-a46f-f1969bf72c72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testserver.properties" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +122,7 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="testserver" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
   </component>
   <component name="RunManager" selected="Application.Server">
     <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -561,12 +562,12 @@
       <workItem from="1509649243635" duration="15000" />
       <workItem from="1511797169097" duration="28000" />
       <workItem from="1511799920763" duration="29000" />
-      <workItem from="1511801576936" duration="837000" />
+      <workItem from="1511801576936" duration="860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7299000" />
+    <option name="totallyTimeSpent" value="7322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
