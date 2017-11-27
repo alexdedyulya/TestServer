@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5242f42f-6909-4446-a46f-f1969bf72c72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.properties" afterPath="$PROJECT_DIR$/build.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -563,12 +563,12 @@
       <workItem from="1509649243635" duration="15000" />
       <workItem from="1511797169097" duration="28000" />
       <workItem from="1511799920763" duration="29000" />
-      <workItem from="1511801576936" duration="1291000" />
+      <workItem from="1511801576936" duration="1623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7753000" />
+    <option name="totallyTimeSpent" value="8085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
